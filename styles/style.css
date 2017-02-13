@@ -1,0 +1,127 @@
+* {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html {
+}
+body {
+	color: white;
+	background-color: grey;
+}
+#signUpHead {
+	text-align: center;
+	width: 110px;
+	margin: 5px;
+	padding: 10px;
+	font-size: 18px;
+	position: absolute;
+	color: yellow;
+	cursor: pointer;
+	text-decoration: none;
+	transition: all ease .5s;
+}
+#signUpHead:hover {
+	background-color: #27aae1;
+}
+#backVideo, #poster {
+	height: 100vmin;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	object-fit: fill;
+	z-index: -1;
+}
+#poster{
+	background-image:url('../media/explorers.jpg');	
+	background-position:center;
+}
+#landing {
+	position: relative;
+	background-color: rgba(0, 0, 0, 0.1);
+	height: 100vmin;
+	display: block;
+}
+.informationPane {
+	position: relative;
+	margin-top: 50px;
+}
+#logo {
+	position: relative;
+	display: block;
+	margin: auto;
+	width: 100%;
+	max-width:300px;
+}
+#logoBlock {
+	top: 20vmin;
+	position: relative;
+	max-width: 500px;
+	width: 50vmin;
+	margin: auto;
+	text-align: center;
+}
+#downArrow {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+	color: yellow;
+}
+#downArrow p {
+	margin: 0;
+}
+#exploreButton i {
+	transition: all ease .5s;
+}
+#exploreButton i:hover {
+	color: #25344c;
+}
+a:hover {
+	color: black;
+	width: 200px;
+}
+#subCaption {
+	position: relative;
+	top: 50px;
+	color: white;
+}
+#info1 h1 {
+	color: #27aae1;
+}
+#info2 {
+	background-color: #565656;
+}
+#signUpFooter {
+	width: 100px;
+	height: 50px;
+	color: white;
+	background-color: #27aae1;
+	transition: all ease .5s;
+	font-size: 18px;
+	margin-bottom: 25px;
+}
+#signUpFooter:hover {
+	color: yellow;
+}
+.informationPane p {
+	margin-bottom: 25px;
+	font-size: 25px;
+}
+i {
+	display: block;
+	text-align: center;
+	color: #27aae1;
+}
+input {
+	color: #27aae1;
+}
+#stepPanel {
+	padding: 50px;
+}
+.sectionTitle {
+	color: yellow;
+	margin-bottom: 50px;
+}
